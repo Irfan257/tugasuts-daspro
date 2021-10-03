@@ -2,4 +2,4 @@
 
 ```Tugas UTS```
 
-Tema : Kalkulator Sederhana Dengan If Elif Else Dengan Bahasa Pemrograman Python
+Tema : ATM Sederhana Dengan If Elif Else Dengan Bahasa Pemrograman Python
