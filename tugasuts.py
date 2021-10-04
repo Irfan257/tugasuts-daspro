@@ -31,13 +31,13 @@ def pilihanatm():
 
         #Cek Saldo
         if (menu_atm == "1"):
-            print("Saldo Anda Saat Ini Rp. ", saldosekarang)
+            print("Saldo Anda Saat Ini Rp.", saldosekarang)
             pilihanatm()
 
         elif (menu_atm == "2"):
             ambiluang = int(input("Silahkan masukan jumlah uang yang ingin diambil "))
             if saldosekarang > ambiluang:
-                print("Anda Menambil Uang Sebesar Rp.", ambiluang)
+                print("Anda Mengambil Uang Sebesar Rp.", ambiluang)
             elif saldosekarang < ambiluang:
                 print("Maaf Saldo Anda Tidak Cukup")
             pilihanatm()
