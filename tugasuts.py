@@ -34,6 +34,7 @@ def pilihanatm():
             print("Saldo Anda Saat Ini Rp.", saldosekarang)
             pilihanatm()
 
+        # Ambil Uang
         elif (menu_atm == "2"):
             ambiluang = int(input("Silahkan masukan jumlah uang yang ingin diambil "))
             if saldosekarang > ambiluang:
@@ -42,6 +43,7 @@ def pilihanatm():
                 print("Maaf Saldo Anda Tidak Cukup")
             pilihanatm()
 
+        # Kirim Uang
         elif (menu_atm == "3"):
             norek = int(input("Silahkan masukan nomor rekening tujuan "))
             kirimuang = int(input("Silahkan masukan jumlah uang yang ingin Dikirim "))
@@ -51,9 +53,11 @@ def pilihanatm():
                 print("Maaf saldo anda tidak cukup")
             pilihanatm()
 
+        # Keluar Dari menu
         elif (menu_atm == "4"):
             print("Anda sudah keluar dari menu ATM, Silahkan Ambil Kartu Anda, Terima Kasih")
 
+        # Jika Angka Yang Diinput Tidak Tersedia
         else:
             print("Maaf perintah yang kamu masukan tidak tersedia")
             pilihanatm()
