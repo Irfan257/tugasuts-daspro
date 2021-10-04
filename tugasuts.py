@@ -1,3 +1,4 @@
+# Data Nasabah
 noatm = 12345678
 pin = 1234
 pemilikrekening = "Jamal Udin"
